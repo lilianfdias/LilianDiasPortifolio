@@ -58,12 +58,8 @@ export const Home = (): JSX.Element => {
               projetos
             </Text>
             <Text type="body1" color="grey2">
-              Minha conexão com a tecnologia se estreitou no mestrado, onde tive
-              oportunidade de desenvolver a estatística da minha dissertação em
-              R, me identifico bastante com a área o que me levou a migrar na
-              carreira. Possuo familiaridade com HTML, CSS, JavaScript, React,
-              TypeScript, node, express, Python, Django e noções de UI/UX
-              design.
+              Um espaço pra você me conhecer melhor, fique a vontade pra
+              explorar todos projetos que desenvolvi
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
@@ -96,15 +92,27 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                Meus Projetos
+                Sobre mim
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Alguns dos meus{" "}
-                <Text as="span" color="brand5">
-                  projetos
-                </Text>
+                Minha conexão com a tecnologia se estreitou no mestrado, onde
+                tive oportunidade de desenvolver a estatística da minha
+                dissertação em R, me identifico bastante com a área o que me
+                levou a migrar na carreira. Possuo familiaridade com HTML, CSS,
+                JavaScript, React, TypeScript, node, express, Python, Django e
+                noções de UI/UX design.{" "}
               </Text>
+              <br></br>
             </ProjectsAreaSocialMediaMessage>
+            <Text as="h2" type="heading4" color="grey4">
+              Meus Projetos
+            </Text>
+            <Text as="p" type="body1" color="grey2">
+              Alguns dos meus projetos.{" "}
+            </Text>
+            {/* <Text as="span" color="brand5">
+              projetos
+            </Text> */}
             <ProjectsAreaContent>
               <Project />
             </ProjectsAreaContent>
